@@ -155,3 +155,9 @@
 // objek
 
 // didalm objek,karena objek tersebut sudah didefinisikan maka konteks this disini itu mengembalikan isi dari objek tersebut,kalau fungsi global,ketika dia tidak berada didalam objek atau konstuktor dia akan menjadi window(window === this) ,kalau konstruktor dia akan mejadi penunjuk arah / membantu agar konstruktor terjadi,sedangkan arrow function itu
+
+
+
+// Dot notation (toko.Laptop) lebih sering digunakan jika kamu sudah tahu nama properti secara eksplisit dan nama propertinya valid.
+B// racket notation (toko["Laptop"]) lebih fleksibel dan digunakan ketika nama properti berupa variabel, atau jika nama propertinya tidak valid untuk dot notation (misalnya ada spasi atau karakter khusus).
+//Template Literals (${}) – Digunakan untuk menggabungkan string dan ekspresi/variabel di dalamnya.
